@@ -2,7 +2,7 @@
 /**
  * main - using the printf function to print string
  *
- * Description: using the main function to print 
+ * Description: using the main function to print
  * with proper grammer, but the outcome is a piece of art
  * Return: 0
  */
