@@ -1,21 +1,3 @@
-Skip to content
-Karlie-crypto
-/
-alx-low_level_programming
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-More
-alx-low_level_programming/0x01-variables_if_else_while/1-last_digit.c
-@Karlie-crypto
-Karlie-crypto Last digit
- History
- 1 contributor
-36 lines (32 sloc)  607 Bytes
 #include <stdio.h>
 
 #include <time.h>
