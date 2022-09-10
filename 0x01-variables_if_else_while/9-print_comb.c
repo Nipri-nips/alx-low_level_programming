@@ -1,22 +1,25 @@
 #include <stdio.h>
 
+#include <ctype.h>
 /**
- * main - This code prints all possible combinations of single digit numbers
- * Return: Always 0 (Success)
+ * main - main block
+ * Description: Get a random number and print the number
+ * positive,negative or zero
+ * Return: Always 0 (success)
  */
 int main(void)
 {
-	int n;
+	int digit;
 
-	for (n = 48; n < 58; n++)
+	for (digit = '0'; digit <= '9'; digit++)
 	{
-		putchar(n);
-		if (n != 57)
-		{
-			putchar(',');
-			putchar(' ');
-		}
+		putchar(digit);
+		if (digit == '9')
+			continue;
+
+		putchar(',');
+		putchar(' ');
 	}
 	putchar('\n');
 	return (0);
-
+}
