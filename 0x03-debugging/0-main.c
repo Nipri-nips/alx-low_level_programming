@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* main - Debugging
+* main - Debugging.
 * Return: 0
 */
 
@@ -11,5 +11,6 @@ int main(void)
 	
 	i = 0;
 	positive_or_negetive(i);
+
 	return (0);
 }
