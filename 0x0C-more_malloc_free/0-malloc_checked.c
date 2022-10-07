@@ -11,7 +11,7 @@ void *malloc_checked(unsigned int b)
 	void *memall;
 
 	memall = malloc(b);
-	if (mamall == NULL)
+	if (memall == NULL)
 		exit(98);
 	return (memall);
 }
